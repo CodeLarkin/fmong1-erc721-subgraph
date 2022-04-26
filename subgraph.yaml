@@ -1,15 +1,16 @@
 specVersion: 0.0.2
-description: Fantomons Gen 1 ERC721 Subgraph (Transfers, Metadata)
-repository: https://github.com/CodeLarkin/fmong1-erc721-subgraph
+description: Shtlrs ERC721 Subgraph (Transfers, Metadata)
+repository: https://github.com/CodeLarkin/shtlr-erc721-subgraph
 schema:
   file: ./schema.graphql
 dataSources:
   - kind: ethereum/contract
-    name: FantomonGen1
-    network: fantom
+    name: Shtlrs
+    network: ethereum
     source:
-      address: "0xC93F8096f003B09690A546d40cbB971e9346dcf3"
+      address: "0xc61Cf57549Af53DfdAA03E63D57b5bec8Cd73cb8"
       abi: ERC721
+      startBlock: 14661566
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.5
