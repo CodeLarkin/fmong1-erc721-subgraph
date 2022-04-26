@@ -6,7 +6,7 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: Shtlrs
-    network: ethereum
+    network: mainnet
     source:
       address: "0xc61Cf57549Af53DfdAA03E63D57b5bec8Cd73cb8"
       abi: ERC721
