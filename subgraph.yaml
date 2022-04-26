@@ -8,7 +8,7 @@ dataSources:
     name: Shtlrs
     network: mainnet
     source:
-      address: "0xc61Cf57549Af53DfdAA03E63D57b5bec8Cd73cb8"
+      address: "0x42db56a9b07c429fe1cfa80a99d46eb1ac05e2a3"
       abi: ERC721
       startBlock: 14661566
     mapping:
